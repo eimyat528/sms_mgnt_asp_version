@@ -1,0 +1,1755 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@*
+   <div class="row">
+		<div class="col-12 col-md-12 col-lg-6 col-xl-4">
+			<div class="date_time container mb-3 p-0"  >
+				<p class="">Select Period Date</p>
+				<i class="far fa-calendar calender-small"></i>
+				<input type="text" id="picker" class="form-control bg-light"  value="" readonly>
+			</div>
+		</div>
+	</div>*@
+
+	<div class="col-xl-4 col-md-12">
+        <div class=" mb-5" >
+            <p style="margin-bottom: 5px;">Select Last Login Period</p>
+            <i class="fas fa-angle-down calendar-arrow"></i>
+            <input tabindex="0" autocomplete="off" data-plugin-options='{"locale":"es","inline":false,"startEmpty":true,"calendarCount":2,"startOnMonday":false,"showWeekNumbers":false,"minDate":moment("2018-11-07 00:00:00"),"maxDate":moment("2018-11-24 00:00:00"),"autoCloseOnSelect":true,"showHeader":false,"showFooter":false,"showTimePickers":false}'  name="form[item_9]" id="datetimepicker3" placeholder="Select" class="yd-date-time date-time3  form-control" value="" />
+        </div>
+    </div>
+
+	            <div class="row">
+                <div class="col-12">
+                    <div class="table-responsive py-3 ">
+                        <table id="user-role-table" class="table table-responsive text-nowrap">
+                            <thead>
+                            <tr>
+                                <th scope="col" style="width: 300px">Upload Profile Image</th>
+                                <th scope="col" style="width: 300px">User Name</th>
+                                <th scope="col">Department Name</th>
+                                <th scope="col">Designation</th>
+                                <th scope="col">Mobile Number</th>
+                                <th scope="col">User Type</th>
+                                <th scope="col">Transaction Count</th>
+                                <th scope="col">Role Permission Count</th>
+                                <th scope="col">Description</th>
+                                <th scope="col">Is Active</th>
+                                <th scope="col">Permission Date & Time</th>
+                                <th scope="col">Action</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td><img src="../images/img/avatar1.png" alt="" class="avatar"></td>
+                                <td>Hla Hla</td>
+                                <td>Admin Department</td>
+                                <td>Branch Manager</td>
+                                <td>+95 985646546</td>
+                                <td>Admin</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Hla Hla</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar2.png" alt="" class="avatar"></td>
+                                <td>Aye Aye</td>
+                                <td>Account Department</td>
+                                <td>Accountant</td>
+                                <td>+95 94564657</td>
+                                <td>Admin</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Aye Aye</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar3.png" alt="" class="avatar"></td>
+                                <td>Mya Mya</td>
+                                <td>Sales Department</td>
+                                <td>Sale Person</td>
+                                <td>+95 95346568</td>
+                                <td>User</td>
+                                <td>2</td>
+                                <td>3</td>
+                                <td>Mya Mya</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar1.png" alt="" class="avatar"></td>
+                                <td>Maung Maung</td>
+                                <td>Admin Department</td>
+                                <td>Branch Manager</td>
+                                <td>+95 925486856</td>
+                                <td>User</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Aye Aye</td>
+                                <td class="not-active">No</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar2.png" alt="" class="avatar"></td>
+                                <td>Hla Hla</td>
+                                <td>Admin Department</td>
+                                <td>Branch Manager</td>
+                                <td>+95 985646546</td>
+                                <td>Admin</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Hla Hla</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar2.png" alt="" class="avatar"></td>
+                                <td>Aye Aye</td>
+                                <td>Account Department</td>
+                                <td>Accountant</td>
+                                <td>+95 94564657</td>
+                                <td>Admin</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Aye Aye</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar3.png" alt="" class="avatar"></td>
+                                <td>Mya Mya</td>
+                                <td>Sales Department</td>
+                                <td>Sale Person</td>
+                                <td>+95 95346568</td>
+                                <td>User</td>
+                                <td>2</td>
+                                <td>3</td>
+                                <td>Mya Mya</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar1.png" alt="" class="avatar"></td>
+                                <td>Hla Hla</td>
+                                <td>Admin Department</td>
+                                <td>Branch Manager</td>
+                                <td>+95 985646546</td>
+                                <td>Admin</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Hla Hla</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar1.png" alt="" class="avatar"></td>
+                                <td>Hla Hla</td>
+                                <td>Admin Department</td>
+                                <td>Branch Manager</td>
+                                <td>+95 985646546</td>
+                                <td>Admin</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Hla Hla</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar2.png" alt="" class="avatar"></td>
+                                <td>Aye Aye</td>
+                                <td>Account Department</td>
+                                <td>Accountant</td>
+                                <td>+95 94564657</td>
+                                <td>Admin</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Aye Aye</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar3.png" alt="" class="avatar"></td>
+                                <td>Mya Mya</td>
+                                <td>Sales Department</td>
+                                <td>Sale Person</td>
+                                <td>+95 95346568</td>
+                                <td>User</td>
+                                <td>2</td>
+                                <td>3</td>
+                                <td>Mya Mya</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar1.png" alt="" class="avatar"></td>
+                                <td>Maung Maung</td>
+                                <td>Admin Department</td>
+                                <td>Branch Manager</td>
+                                <td>+95 925486856</td>
+                                <td>User</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Aye Aye</td>
+                                <td class="not-active">No</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar2.png" alt="" class="avatar"></td>
+                                <td>Hla Hla</td>
+                                <td>Admin Department</td>
+                                <td>Branch Manager</td>
+                                <td>+95 985646546</td>
+                                <td>Admin</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Hla Hla</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar2.png" alt="" class="avatar"></td>
+                                <td>Aye Aye</td>
+                                <td>Account Department</td>
+                                <td>Accountant</td>
+                                <td>+95 94564657</td>
+                                <td>Admin</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Aye Aye</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar3.png" alt="" class="avatar"></td>
+                                <td>Mya Mya</td>
+                                <td>Sales Department</td>
+                                <td>Sale Person</td>
+                                <td>+95 95346568</td>
+                                <td>User</td>
+                                <td>2</td>
+                                <td>3</td>
+                                <td>Mya Mya</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar1.png" alt="" class="avatar"></td>
+                                <td>Hla Hla</td>
+                                <td>Admin Department</td>
+                                <td>Branch Manager</td>
+                                <td>+95 985646546</td>
+                                <td>Admin</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Hla Hla</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar1.png" alt="" class="avatar"></td>
+                                <td>Hla Hla</td>
+                                <td>Admin Department</td>
+                                <td>Branch Manager</td>
+                                <td>+95 985646546</td>
+                                <td>Admin</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Hla Hla</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar2.png" alt="" class="avatar"></td>
+                                <td>Aye Aye</td>
+                                <td>Account Department</td>
+                                <td>Accountant</td>
+                                <td>+95 94564657</td>
+                                <td>Admin</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Aye Aye</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar3.png" alt="" class="avatar"></td>
+                                <td>Mya Mya</td>
+                                <td>Sales Department</td>
+                                <td>Sale Person</td>
+                                <td>+95 95346568</td>
+                                <td>User</td>
+                                <td>2</td>
+                                <td>3</td>
+                                <td>Mya Mya</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar1.png" alt="" class="avatar"></td>
+                                <td>Maung Maung</td>
+                                <td>Admin Department</td>
+                                <td>Branch Manager</td>
+                                <td>+95 925486856</td>
+                                <td>User</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Aye Aye</td>
+                                <td class="not-active">No</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar2.png" alt="" class="avatar"></td>
+                                <td>Hla Hla</td>
+                                <td>Admin Department</td>
+                                <td>Branch Manager</td>
+                                <td>+95 985646546</td>
+                                <td>Admin</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Hla Hla</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar2.png" alt="" class="avatar"></td>
+                                <td>Aye Aye</td>
+                                <td>Account Department</td>
+                                <td>Accountant</td>
+                                <td>+95 94564657</td>
+                                <td>Admin</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Aye Aye</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar3.png" alt="" class="avatar"></td>
+                                <td>Mya Mya</td>
+                                <td>Sales Department</td>
+                                <td>Sale Person</td>
+                                <td>+95 95346568</td>
+                                <td>User</td>
+                                <td>2</td>
+                                <td>3</td>
+                                <td>Mya Mya</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar1.png" alt="" class="avatar"></td>
+                                <td>Hla Hla</td>
+                                <td>Admin Department</td>
+                                <td>Branch Manager</td>
+                                <td>+95 985646546</td>
+                                <td>Admin</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Hla Hla</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar1.png" alt="" class="avatar"></td>
+                                <td>Hla Hla</td>
+                                <td>Admin Department</td>
+                                <td>Branch Manager</td>
+                                <td>+95 985646546</td>
+                                <td>Admin</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Hla Hla</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar2.png" alt="" class="avatar"></td>
+                                <td>Aye Aye</td>
+                                <td>Account Department</td>
+                                <td>Accountant</td>
+                                <td>+95 94564657</td>
+                                <td>Admin</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Aye Aye</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar3.png" alt="" class="avatar"></td>
+                                <td>Mya Mya</td>
+                                <td>Sales Department</td>
+                                <td>Sale Person</td>
+                                <td>+95 95346568</td>
+                                <td>User</td>
+                                <td>2</td>
+                                <td>3</td>
+                                <td>Mya Mya</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar1.png" alt="" class="avatar"></td>
+                                <td>Maung Maung</td>
+                                <td>Admin Department</td>
+                                <td>Branch Manager</td>
+                                <td>+95 925486856</td>
+                                <td>User</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Aye Aye</td>
+                                <td class="not-active">No</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar2.png" alt="" class="avatar"></td>
+                                <td>Hla Hla</td>
+                                <td>Admin Department</td>
+                                <td>Branch Manager</td>
+                                <td>+95 985646546</td>
+                                <td>Admin</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Hla Hla</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar2.png" alt="" class="avatar"></td>
+                                <td>Aye Aye</td>
+                                <td>Account Department</td>
+                                <td>Accountant</td>
+                                <td>+95 94564657</td>
+                                <td>Admin</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Aye Aye</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar3.png" alt="" class="avatar"></td>
+                                <td>Mya Mya</td>
+                                <td>Sales Department</td>
+                                <td>Sale Person</td>
+                                <td>+95 95346568</td>
+                                <td>User</td>
+                                <td>2</td>
+                                <td>3</td>
+                                <td>Mya Mya</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar1.png" alt="" class="avatar"></td>
+                                <td>Hla Hla</td>
+                                <td>Admin Department</td>
+                                <td>Branch Manager</td>
+                                <td>+95 985646546</td>
+                                <td>Admin</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Hla Hla</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar1.png" alt="" class="avatar"></td>
+                                <td>Hla Hla</td>
+                                <td>Admin Department</td>
+                                <td>Branch Manager</td>
+                                <td>+95 985646546</td>
+                                <td>Admin</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Hla Hla</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar2.png" alt="" class="avatar"></td>
+                                <td>Aye Aye</td>
+                                <td>Account Department</td>
+                                <td>Accountant</td>
+                                <td>+95 94564657</td>
+                                <td>Admin</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Aye Aye</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar3.png" alt="" class="avatar"></td>
+                                <td>Mya Mya</td>
+                                <td>Sales Department</td>
+                                <td>Sale Person</td>
+                                <td>+95 95346568</td>
+                                <td>User</td>
+                                <td>2</td>
+                                <td>3</td>
+                                <td>Mya Mya</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar1.png" alt="" class="avatar"></td>
+                                <td>Maung Maung</td>
+                                <td>Admin Department</td>
+                                <td>Branch Manager</td>
+                                <td>+95 925486856</td>
+                                <td>User</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Aye Aye</td>
+                                <td class="not-active">No</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar2.png" alt="" class="avatar"></td>
+                                <td>Hla Hla</td>
+                                <td>Admin Department</td>
+                                <td>Branch Manager</td>
+                                <td>+95 985646546</td>
+                                <td>Admin</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Hla Hla</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar2.png" alt="" class="avatar"></td>
+                                <td>Aye Aye</td>
+                                <td>Account Department</td>
+                                <td>Accountant</td>
+                                <td>+95 94564657</td>
+                                <td>Admin</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Aye Aye</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar3.png" alt="" class="avatar"></td>
+                                <td>Mya Mya</td>
+                                <td>Sales Department</td>
+                                <td>Sale Person</td>
+                                <td>+95 95346568</td>
+                                <td>User</td>
+                                <td>2</td>
+                                <td>3</td>
+                                <td>Mya Mya</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar1.png" alt="" class="avatar"></td>
+                                <td>Hla Hla</td>
+                                <td>Admin Department</td>
+                                <td>Branch Manager</td>
+                                <td>+95 985646546</td>
+                                <td>Admin</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Hla Hla</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar1.png" alt="" class="avatar"></td>
+                                <td>Hla Hla</td>
+                                <td>Admin Department</td>
+                                <td>Branch Manager</td>
+                                <td>+95 985646546</td>
+                                <td>Admin</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Hla Hla</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar2.png" alt="" class="avatar"></td>
+                                <td>Aye Aye</td>
+                                <td>Account Department</td>
+                                <td>Accountant</td>
+                                <td>+95 94564657</td>
+                                <td>Admin</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Aye Aye</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar3.png" alt="" class="avatar"></td>
+                                <td>Mya Mya</td>
+                                <td>Sales Department</td>
+                                <td>Sale Person</td>
+                                <td>+95 95346568</td>
+                                <td>User</td>
+                                <td>2</td>
+                                <td>3</td>
+                                <td>Mya Mya</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar1.png" alt="" class="avatar"></td>
+                                <td>Maung Maung</td>
+                                <td>Admin Department</td>
+                                <td>Branch Manager</td>
+                                <td>+95 925486856</td>
+                                <td>User</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Aye Aye</td>
+                                <td class="not-active">No</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar2.png" alt="" class="avatar"></td>
+                                <td>Hla Hla</td>
+                                <td>Admin Department</td>
+                                <td>Branch Manager</td>
+                                <td>+95 985646546</td>
+                                <td>Admin</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Hla Hla</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar2.png" alt="" class="avatar"></td>
+                                <td>Aye Aye</td>
+                                <td>Account Department</td>
+                                <td>Accountant</td>
+                                <td>+95 94564657</td>
+                                <td>Admin</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Aye Aye</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar3.png" alt="" class="avatar"></td>
+                                <td>Mya Mya</td>
+                                <td>Sales Department</td>
+                                <td>Sale Person</td>
+                                <td>+95 95346568</td>
+                                <td>User</td>
+                                <td>2</td>
+                                <td>3</td>
+                                <td>Mya Mya</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar1.png" alt="" class="avatar"></td>
+                                <td>Hla Hla</td>
+                                <td>Admin Department</td>
+                                <td>Branch Manager</td>
+                                <td>+95 985646546</td>
+                                <td>Admin</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Hla Hla</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar1.png" alt="" class="avatar"></td>
+                                <td>Hla Hla</td>
+                                <td>Admin Department</td>
+                                <td>Branch Manager</td>
+                                <td>+95 985646546</td>
+                                <td>Admin</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Hla Hla</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar2.png" alt="" class="avatar"></td>
+                                <td>Aye Aye</td>
+                                <td>Account Department</td>
+                                <td>Accountant</td>
+                                <td>+95 94564657</td>
+                                <td>Admin</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Aye Aye</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar3.png" alt="" class="avatar"></td>
+                                <td>Mya Mya</td>
+                                <td>Sales Department</td>
+                                <td>Sale Person</td>
+                                <td>+95 95346568</td>
+                                <td>User</td>
+                                <td>2</td>
+                                <td>3</td>
+                                <td>Mya Mya</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar1.png" alt="" class="avatar"></td>
+                                <td>Maung Maung</td>
+                                <td>Admin Department</td>
+                                <td>Branch Manager</td>
+                                <td>+95 925486856</td>
+                                <td>User</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Aye Aye</td>
+                                <td class="not-active">No</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar2.png" alt="" class="avatar"></td>
+                                <td>Hla Hla</td>
+                                <td>Admin Department</td>
+                                <td>Branch Manager</td>
+                                <td>+95 985646546</td>
+                                <td>Admin</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Hla Hla</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar2.png" alt="" class="avatar"></td>
+                                <td>Aye Aye</td>
+                                <td>Account Department</td>
+                                <td>Accountant</td>
+                                <td>+95 94564657</td>
+                                <td>Admin</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Aye Aye</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar3.png" alt="" class="avatar"></td>
+                                <td>Mya Mya</td>
+                                <td>Sales Department</td>
+                                <td>Sale Person</td>
+                                <td>+95 95346568</td>
+                                <td>User</td>
+                                <td>2</td>
+                                <td>3</td>
+                                <td>Mya Mya</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar1.png" alt="" class="avatar"></td>
+                                <td>Hla Hla</td>
+                                <td>Admin Department</td>
+                                <td>Branch Manager</td>
+                                <td>+95 985646546</td>
+                                <td>Admin</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Hla Hla</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar1.png" alt="" class="avatar"></td>
+                                <td>Hla Hla</td>
+                                <td>Admin Department</td>
+                                <td>Branch Manager</td>
+                                <td>+95 985646546</td>
+                                <td>Admin</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Hla Hla</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar2.png" alt="" class="avatar"></td>
+                                <td>Aye Aye</td>
+                                <td>Account Department</td>
+                                <td>Accountant</td>
+                                <td>+95 94564657</td>
+                                <td>Admin</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Aye Aye</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar3.png" alt="" class="avatar"></td>
+                                <td>Mya Mya</td>
+                                <td>Sales Department</td>
+                                <td>Sale Person</td>
+                                <td>+95 95346568</td>
+                                <td>User</td>
+                                <td>2</td>
+                                <td>3</td>
+                                <td>Mya Mya</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar1.png" alt="" class="avatar"></td>
+                                <td>Maung Maung</td>
+                                <td>Admin Department</td>
+                                <td>Branch Manager</td>
+                                <td>+95 925486856</td>
+                                <td>User</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Aye Aye</td>
+                                <td class="not-active">No</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar2.png" alt="" class="avatar"></td>
+                                <td>Hla Hla</td>
+                                <td>Admin Department</td>
+                                <td>Branch Manager</td>
+                                <td>+95 985646546</td>
+                                <td>Admin</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Hla Hla</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar2.png" alt="" class="avatar"></td>
+                                <td>Aye Aye</td>
+                                <td>Account Department</td>
+                                <td>Accountant</td>
+                                <td>+95 94564657</td>
+                                <td>Admin</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Aye Aye</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar3.png" alt="" class="avatar"></td>
+                                <td>Mya Mya</td>
+                                <td>Sales Department</td>
+                                <td>Sale Person</td>
+                                <td>+95 95346568</td>
+                                <td>User</td>
+                                <td>2</td>
+                                <td>3</td>
+                                <td>Mya Mya</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar1.png" alt="" class="avatar"></td>
+                                <td>Hla Hla</td>
+                                <td>Admin Department</td>
+                                <td>Branch Manager</td>
+                                <td>+95 985646546</td>
+                                <td>Admin</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Hla Hla</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar1.png" alt="" class="avatar"></td>
+                                <td>Hla Hla</td>
+                                <td>Admin Department</td>
+                                <td>Branch Manager</td>
+                                <td>+95 985646546</td>
+                                <td>Admin</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Hla Hla</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar2.png" alt="" class="avatar"></td>
+                                <td>Aye Aye</td>
+                                <td>Account Department</td>
+                                <td>Accountant</td>
+                                <td>+95 94564657</td>
+                                <td>Admin</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Aye Aye</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar3.png" alt="" class="avatar"></td>
+                                <td>Mya Mya</td>
+                                <td>Sales Department</td>
+                                <td>Sale Person</td>
+                                <td>+95 95346568</td>
+                                <td>User</td>
+                                <td>2</td>
+                                <td>3</td>
+                                <td>Mya Mya</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar1.png" alt="" class="avatar"></td>
+                                <td>Maung Maung</td>
+                                <td>Admin Department</td>
+                                <td>Branch Manager</td>
+                                <td>+95 925486856</td>
+                                <td>User</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Aye Aye</td>
+                                <td class="not-active">No</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar2.png" alt="" class="avatar"></td>
+                                <td>Hla Hla</td>
+                                <td>Admin Department</td>
+                                <td>Branch Manager</td>
+                                <td>+95 985646546</td>
+                                <td>Admin</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Hla Hla</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar2.png" alt="" class="avatar"></td>
+                                <td>Aye Aye</td>
+                                <td>Account Department</td>
+                                <td>Accountant</td>
+                                <td>+95 94564657</td>
+                                <td>Admin</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Aye Aye</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar3.png" alt="" class="avatar"></td>
+                                <td>Mya Mya</td>
+                                <td>Sales Department</td>
+                                <td>Sale Person</td>
+                                <td>+95 95346568</td>
+                                <td>User</td>
+                                <td>2</td>
+                                <td>3</td>
+                                <td>Mya Mya</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar1.png" alt="" class="avatar"></td>
+                                <td>Hla Hla</td>
+                                <td>Admin Department</td>
+                                <td>Branch Manager</td>
+                                <td>+95 985646546</td>
+                                <td>Admin</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Hla Hla</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar1.png" alt="" class="avatar"></td>
+                                <td>Hla Hla</td>
+                                <td>Admin Department</td>
+                                <td>Branch Manager</td>
+                                <td>+95 985646546</td>
+                                <td>Admin</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Hla Hla</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar2.png" alt="" class="avatar"></td>
+                                <td>Aye Aye</td>
+                                <td>Account Department</td>
+                                <td>Accountant</td>
+                                <td>+95 94564657</td>
+                                <td>Admin</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Aye Aye</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar3.png" alt="" class="avatar"></td>
+                                <td>Mya Mya</td>
+                                <td>Sales Department</td>
+                                <td>Sale Person</td>
+                                <td>+95 95346568</td>
+                                <td>User</td>
+                                <td>2</td>
+                                <td>3</td>
+                                <td>Mya Mya</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar1.png" alt="" class="avatar"></td>
+                                <td>Maung Maung</td>
+                                <td>Admin Department</td>
+                                <td>Branch Manager</td>
+                                <td>+95 925486856</td>
+                                <td>User</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Aye Aye</td>
+                                <td class="not-active">No</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar2.png" alt="" class="avatar"></td>
+                                <td>Hla Hla</td>
+                                <td>Admin Department</td>
+                                <td>Branch Manager</td>
+                                <td>+95 985646546</td>
+                                <td>Admin</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Hla Hla</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar2.png" alt="" class="avatar"></td>
+                                <td>Aye Aye</td>
+                                <td>Account Department</td>
+                                <td>Accountant</td>
+                                <td>+95 94564657</td>
+                                <td>Admin</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Aye Aye</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar3.png" alt="" class="avatar"></td>
+                                <td>Mya Mya</td>
+                                <td>Sales Department</td>
+                                <td>Sale Person</td>
+                                <td>+95 95346568</td>
+                                <td>User</td>
+                                <td>2</td>
+                                <td>3</td>
+                                <td>Mya Mya</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar1.png" alt="" class="avatar"></td>
+                                <td>Hla Hla</td>
+                                <td>Admin Department</td>
+                                <td>Branch Manager</td>
+                                <td>+95 985646546</td>
+                                <td>Admin</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Hla Hla</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar1.png" alt="" class="avatar"></td>
+                                <td>Hla Hla</td>
+                                <td>Admin Department</td>
+                                <td>Branch Manager</td>
+                                <td>+95 985646546</td>
+                                <td>Admin</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Hla Hla</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar2.png" alt="" class="avatar"></td>
+                                <td>Aye Aye</td>
+                                <td>Account Department</td>
+                                <td>Accountant</td>
+                                <td>+95 94564657</td>
+                                <td>Admin</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Aye Aye</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar3.png" alt="" class="avatar"></td>
+                                <td>Mya Mya</td>
+                                <td>Sales Department</td>
+                                <td>Sale Person</td>
+                                <td>+95 95346568</td>
+                                <td>User</td>
+                                <td>2</td>
+                                <td>3</td>
+                                <td>Mya Mya</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar1.png" alt="" class="avatar"></td>
+                                <td>Maung Maung</td>
+                                <td>Admin Department</td>
+                                <td>Branch Manager</td>
+                                <td>+95 925486856</td>
+                                <td>User</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Aye Aye</td>
+                                <td class="not-active">No</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar2.png" alt="" class="avatar"></td>
+                                <td>Hla Hla</td>
+                                <td>Admin Department</td>
+                                <td>Branch Manager</td>
+                                <td>+95 985646546</td>
+                                <td>Admin</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Hla Hla</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar2.png" alt="" class="avatar"></td>
+                                <td>Aye Aye</td>
+                                <td>Account Department</td>
+                                <td>Accountant</td>
+                                <td>+95 94564657</td>
+                                <td>Admin</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Aye Aye</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar3.png" alt="" class="avatar"></td>
+                                <td>Mya Mya</td>
+                                <td>Sales Department</td>
+                                <td>Sale Person</td>
+                                <td>+95 95346568</td>
+                                <td>User</td>
+                                <td>2</td>
+                                <td>3</td>
+                                <td>Mya Mya</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar1.png" alt="" class="avatar"></td>
+                                <td>Hla Hla</td>
+                                <td>Admin Department</td>
+                                <td>Branch Manager</td>
+                                <td>+95 985646546</td>
+                                <td>Admin</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Hla Hla</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar1.png" alt="" class="avatar"></td>
+                                <td>Hla Hla</td>
+                                <td>Admin Department</td>
+                                <td>Branch Manager</td>
+                                <td>+95 985646546</td>
+                                <td>Admin</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Hla Hla</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar2.png" alt="" class="avatar"></td>
+                                <td>Aye Aye</td>
+                                <td>Account Department</td>
+                                <td>Accountant</td>
+                                <td>+95 94564657</td>
+                                <td>Admin</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Aye Aye</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar3.png" alt="" class="avatar"></td>
+                                <td>Mya Mya</td>
+                                <td>Sales Department</td>
+                                <td>Sale Person</td>
+                                <td>+95 95346568</td>
+                                <td>User</td>
+                                <td>2</td>
+                                <td>3</td>
+                                <td>Mya Mya</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar1.png" alt="" class="avatar"></td>
+                                <td>Maung Maung</td>
+                                <td>Admin Department</td>
+                                <td>Branch Manager</td>
+                                <td>+95 925486856</td>
+                                <td>User</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Aye Aye</td>
+                                <td class="not-active">No</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar2.png" alt="" class="avatar"></td>
+                                <td>Hla Hla</td>
+                                <td>Admin Department</td>
+                                <td>Branch Manager</td>
+                                <td>+95 985646546</td>
+                                <td>Admin</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Hla Hla</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar2.png" alt="" class="avatar"></td>
+                                <td>Aye Aye</td>
+                                <td>Account Department</td>
+                                <td>Accountant</td>
+                                <td>+95 94564657</td>
+                                <td>Admin</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Aye Aye</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar3.png" alt="" class="avatar"></td>
+                                <td>Mya Mya</td>
+                                <td>Sales Department</td>
+                                <td>Sale Person</td>
+                                <td>+95 95346568</td>
+                                <td>User</td>
+                                <td>2</td>
+                                <td>3</td>
+                                <td>Mya Mya</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar1.png" alt="" class="avatar"></td>
+                                <td>Hla Hla</td>
+                                <td>Admin Department</td>
+                                <td>Branch Manager</td>
+                                <td>+95 985646546</td>
+                                <td>Admin</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Hla Hla</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar1.png" alt="" class="avatar"></td>
+                                <td>Hla Hla</td>
+                                <td>Admin Department</td>
+                                <td>Branch Manager</td>
+                                <td>+95 985646546</td>
+                                <td>Admin</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Hla Hla</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar2.png" alt="" class="avatar"></td>
+                                <td>Aye Aye</td>
+                                <td>Account Department</td>
+                                <td>Accountant</td>
+                                <td>+95 94564657</td>
+                                <td>Admin</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Aye Aye</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar3.png" alt="" class="avatar"></td>
+                                <td>Mya Mya</td>
+                                <td>Sales Department</td>
+                                <td>Sale Person</td>
+                                <td>+95 95346568</td>
+                                <td>User</td>
+                                <td>2</td>
+                                <td>3</td>
+                                <td>Mya Mya</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar1.png" alt="" class="avatar"></td>
+                                <td>Maung Maung</td>
+                                <td>Admin Department</td>
+                                <td>Branch Manager</td>
+                                <td>+95 925486856</td>
+                                <td>User</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Aye Aye</td>
+                                <td class="not-active">No</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar2.png" alt="" class="avatar"></td>
+                                <td>Hla Hla</td>
+                                <td>Admin Department</td>
+                                <td>Branch Manager</td>
+                                <td>+95 985646546</td>
+                                <td>Admin</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Hla Hla</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar2.png" alt="" class="avatar"></td>
+                                <td>Aye Aye</td>
+                                <td>Account Department</td>
+                                <td>Accountant</td>
+                                <td>+95 94564657</td>
+                                <td>Admin</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Aye Aye</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar3.png" alt="" class="avatar"></td>
+                                <td>Mya Mya</td>
+                                <td>Sales Department</td>
+                                <td>Sale Person</td>
+                                <td>+95 95346568</td>
+                                <td>User</td>
+                                <td>2</td>
+                                <td>3</td>
+                                <td>Mya Mya</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar1.png" alt="" class="avatar"></td>
+                                <td>Hla Hla</td>
+                                <td>Admin Department</td>
+                                <td>Branch Manager</td>
+                                <td>+95 985646546</td>
+                                <td>Admin</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Hla Hla</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar1.png" alt="" class="avatar"></td>
+                                <td>Hla Hla</td>
+                                <td>Admin Department</td>
+                                <td>Branch Manager</td>
+                                <td>+95 985646546</td>
+                                <td>Admin</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Hla Hla</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar2.png" alt="" class="avatar"></td>
+                                <td>Aye Aye</td>
+                                <td>Account Department</td>
+                                <td>Accountant</td>
+                                <td>+95 94564657</td>
+                                <td>Admin</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Aye Aye</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar3.png" alt="" class="avatar"></td>
+                                <td>Mya Mya</td>
+                                <td>Sales Department</td>
+                                <td>Sale Person</td>
+                                <td>+95 95346568</td>
+                                <td>User</td>
+                                <td>2</td>
+                                <td>3</td>
+                                <td>Mya Mya</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar1.png" alt="" class="avatar"></td>
+                                <td>Maung Maung</td>
+                                <td>Admin Department</td>
+                                <td>Branch Manager</td>
+                                <td>+95 925486856</td>
+                                <td>User</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Aye Aye</td>
+                                <td class="not-active">No</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar2.png" alt="" class="avatar"></td>
+                                <td>Hla Hla</td>
+                                <td>Admin Department</td>
+                                <td>Branch Manager</td>
+                                <td>+95 985646546</td>
+                                <td>Admin</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Hla Hla</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar2.png" alt="" class="avatar"></td>
+                                <td>Aye Aye</td>
+                                <td>Account Department</td>
+                                <td>Accountant</td>
+                                <td>+95 94564657</td>
+                                <td>Admin</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Aye Aye</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar3.png" alt="" class="avatar"></td>
+                                <td>Mya Mya</td>
+                                <td>Sales Department</td>
+                                <td>Sale Person</td>
+                                <td>+95 95346568</td>
+                                <td>User</td>
+                                <td>2</td>
+                                <td>3</td>
+                                <td>Mya Mya</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar1.png" alt="" class="avatar"></td>
+                                <td>Hla Hla</td>
+                                <td>Admin Department</td>
+                                <td>Branch Manager</td>
+                                <td>+95 985646546</td>
+                                <td>Admin</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Hla Hla</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar2.png" alt="" class="avatar"></td>
+                                <td>Aye Aye</td>
+                                <td>Account Department</td>
+                                <td>Accountant</td>
+                                <td>+95 94564657</td>
+                                <td>Admin</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Aye Aye</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar3.png" alt="" class="avatar"></td>
+                                <td>Mya Mya</td>
+                                <td>Sales Department</td>
+                                <td>Sale Person</td>
+                                <td>+95 95346568</td>
+                                <td>User</td>
+                                <td>2</td>
+                                <td>3</td>
+                                <td>Mya Mya</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar1.png" alt="" class="avatar"></td>
+                                <td>Hla Hla</td>
+                                <td>Admin Department</td>
+                                <td>Branch Manager</td>
+                                <td>+95 985646546</td>
+                                <td>Admin</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Hla Hla</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar2.png" alt="" class="avatar"></td>
+                                <td>Aye Aye</td>
+                                <td>Account Department</td>
+                                <td>Accountant</td>
+                                <td>+95 94564657</td>
+                                <td>Admin</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Aye Aye</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar3.png" alt="" class="avatar"></td>
+                                <td>Mya Mya</td>
+                                <td>Sales Department</td>
+                                <td>Sale Person</td>
+                                <td>+95 95346568</td>
+                                <td>User</td>
+                                <td>2</td>
+                                <td>3</td>
+                                <td>Mya Mya</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar1.png" alt="" class="avatar"></td>
+                                <td>Hla Hla</td>
+                                <td>Admin Department</td>
+                                <td>Branch Manager</td>
+                                <td>+95 985646546</td>
+                                <td>Admin</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Hla Hla</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar2.png" alt="" class="avatar"></td>
+                                <td>Aye Aye</td>
+                                <td>Account Department</td>
+                                <td>Accountant</td>
+                                <td>+95 94564657</td>
+                                <td>Admin</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>Aye Aye</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/img/avatar3.png" alt="" class="avatar"></td>
+                                <td>Mya Mya</td>
+                                <td>Sales Department</td>
+                                <td>Sale Person</td>
+                                <td>+95 95346568</td>
+                                <td>User</td>
+                                <td>2</td>
+                                <td>3</td>
+                                <td>Mya Mya</td>
+                                <td class="active">Yes</td>
+                                <td>Mon,08-Jan-2021, 09:10:20</td>
+                                <td><a href="4.3_update_user_role.html" class="text-decoration-none"><img class="edit-img" src="../images/Icon/Edit%20Pattern.svg" alt=""></a></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+
+
+<script>
+ //   $('#picker').daterangepicker({
+	//	minYear:2020,
+	//	opens:'center',
+	//	minDate: new Date('2/1/2022'),
+	//	maxDate: new Date(),
+	//	placeholder: "From Dtae",
+	//	showDropdowns:true,
+	//	locale: {
+	//				format: 'ddd,DD-MMM-YYYY'
+	//			}
+	//}, function(start, end, label) {
+	//	console.log("New date range selected: ' + start.format('DD-MM-YYYY') + ' to ' + end.format('DD-MM-YYYY') + ' (predefined range: ' + label + ')");
+	//});
+
+	$("#datetimepicker3").calentim({
+            showFooter:false,
+            maxDate:new Date(),
+            format: "ddd,DD-MMM-YYYY",
+            startEmpty: true,
+            showTimePickers: false,
+        });
+</script>

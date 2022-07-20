@@ -1,0 +1,88 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = SMS_Management
+build_property.RootNamespace = SMS_Management
+build_property.ProjectDir = C:\Users\User\Documents\GitHub\SMS_Dot-Net_Git-Hub\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\User\Documents\GitHub\SMS_Dot-Net_Git-Hub
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/User/Documents/GitHub/SMS_Dot-Net_Git-Hub/SMS_Management/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U01TX01hbmFnZW1lbnRcVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Documents/GitHub/SMS_Dot-Net_Git-Hub/SMS_Management/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U01TX01hbmFnZW1lbnRcVmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Documents/GitHub/SMS_Dot-Net_Git-Hub/SMS_Management/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U01TX01hbmFnZW1lbnRcVmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Documents/GitHub/SMS_Dot-Net_Git-Hub/SMS_Management/Views/Shared/Navigation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U01TX01hbmFnZW1lbnRcVmlld3NcU2hhcmVkXE5hdmlnYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Documents/GitHub/SMS_Dot-Net_Git-Hub/SMS_Management/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U01TX01hbmFnZW1lbnRcVmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Documents/GitHub/SMS_Dot-Net_Git-Hub/SMS_Management/Views/UserRoleMaster/CompanyListing.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U01TX01hbmFnZW1lbnRcVmlld3NcVXNlclJvbGVNYXN0ZXJcQ29tcGFueUxpc3RpbmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Documents/GitHub/SMS_Dot-Net_Git-Hub/SMS_Management/Views/UserRoleMaster/DepartmentListing.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U01TX01hbmFnZW1lbnRcVmlld3NcVXNlclJvbGVNYXN0ZXJcRGVwYXJ0bWVudExpc3RpbmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Documents/GitHub/SMS_Dot-Net_Git-Hub/SMS_Management/Views/UserRoleMaster/DesignationListing.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U01TX01hbmFnZW1lbnRcVmlld3NcVXNlclJvbGVNYXN0ZXJcRGVzaWduYXRpb25MaXN0aW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Documents/GitHub/SMS_Dot-Net_Git-Hub/SMS_Management/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U01TX01hbmFnZW1lbnRcVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Documents/GitHub/SMS_Dot-Net_Git-Hub/SMS_Management/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U01TX01hbmFnZW1lbnRcVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Documents/GitHub/SMS_Dot-Net_Git-Hub/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Documents/GitHub/SMS_Dot-Net_Git-Hub/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Documents/GitHub/SMS_Dot-Net_Git-Hub/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Documents/GitHub/SMS_Dot-Net_Git-Hub/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Documents/GitHub/SMS_Dot-Net_Git-Hub/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Documents/GitHub/SMS_Dot-Net_Git-Hub/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Documents/GitHub/SMS_Dot-Net_Git-Hub/SMS_Management/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U01TX01hbmFnZW1lbnRcVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-vgmq8uv61n
+
+[C:/Users/User/Documents/GitHub/SMS_Dot-Net_Git-Hub/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-vr77gps0v0
